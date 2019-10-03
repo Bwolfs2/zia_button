@@ -17,6 +17,14 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  rxdart: ^0.22.2
+  bloc_pattern: ^2.3.3
+  keyboard_avoider: ^0.1.2
+  intl_translation: ^0.17.7
+  find_dropdown: ^0.1.5+1
+  camera_camera: ^1.0.24
+  dio: ^3.0.0
+  flutter_icons: ^0.2.5
   flutter:
     sdk: flutter
 
