@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:zia_button/app/teste_discord/teste_discord_bloc.dart';
 import 'package:zia_button/app/teste_discord/teste_discord_page.dart';
 import 'app/teste_bloc.dart';
+import 'app/teste_discord/intermediated/intermediated_page.dart';
 import 'drawer_ane.dart';
 import 'widget/zia_add_buttom.dart';
 import 'widget/zia_add_buttom_editable.dart';
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: TesteDiscordPage(),
+      home: IntermediatedPage(),
     );
   }
 }
@@ -60,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
        
-        title: Text("Teste"),
+        title: Text("Teste",),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: Container(
